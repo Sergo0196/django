@@ -19,5 +19,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pages/', include('django.contrib.flatpages.urls'))
+    path('pages/', include('django.contrib.flatpages.urls')),
+    path('contacts/', include('django.contrib.flatpages.urls')),
+    path('page_1/', include('django.contrib.flatpages.urls')),
+    path('page_2/', include('django.contrib.flatpages.urls')),
+    path('page_3/', include('django.contrib.flatpages.urls'))
 ]
